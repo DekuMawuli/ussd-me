@@ -8,7 +8,7 @@ $text        = $_POST["text"];
 $response = "";
 
 if ($text == ""){
-    $resp = "Welcome to Seritrex Applio System.\n";
+    $resp = "CON Welcome to Seritrex Applio System.\n";
     $res .= "Kindly Select your options: \n";
     $res .= "1. Register With Us \n";
     $res .= "2. Request Payment \n";
