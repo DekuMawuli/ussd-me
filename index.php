@@ -13,5 +13,8 @@ if ($text == ""){
     $res .= "1. Register With Us \n";
     $res .= "2. Request Payment \n";
     $res .= "3. Go for bailout \n";
-    echo $res;
+    
 }
+
+header("Content-type: text/plain");
+echo $res;
